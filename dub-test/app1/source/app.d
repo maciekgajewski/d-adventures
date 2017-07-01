@@ -2,5 +2,5 @@ import std.stdio;
 
 void main()
 {
-	Hello("writeln");
+	writeln("Hello");
 }
