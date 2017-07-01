@@ -1,3 +1,4 @@
 {
 	"name": "subapp",
+	"dependencies" : {"app1:sublib" : {"path":".."} }
 }

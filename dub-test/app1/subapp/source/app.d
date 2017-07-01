@@ -1,6 +1,8 @@
 import std.stdio;
 
+import sublib;
+
 void main()
 {
-	writeln("Sub hello");
+	writeln("Sub hello " ~ getName());
 }
