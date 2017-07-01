@@ -1,4 +1,7 @@
 {
 	"name" : "someprog",
 	"targetType" : "executable",
+	"dependencies" : {
+		"somelib" : { "path" : "../somelib" }
+	}
 }

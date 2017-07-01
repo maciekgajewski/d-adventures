@@ -1,7 +1,9 @@
 import std.stdio;
 
+import somelib;
+
 int main()
 {
-	writeln("Hello");
+	writeln("Hello " ~ getName());
 	return 0;
 }

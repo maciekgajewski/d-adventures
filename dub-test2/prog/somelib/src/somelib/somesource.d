@@ -1,4 +1,6 @@
-string pure getName()
+module somelib.somesource;
+
+string getName() pure
 {
 	return "Stefan";
 }
